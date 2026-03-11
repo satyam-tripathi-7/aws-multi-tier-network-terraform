@@ -1,0 +1,35 @@
+# Local .terraform directories
+.terraform/
+
+# Terraform lock file (can be committed but often ignored in learning projects)
+# .terraform.lock.hcl
+
+# Terraform state files - NEVER commit these
+*.tfstate
+*.tfstate.backup
+
+# Terraform variables file - contains sensitive values
+terraform.tfvars
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Terraform plan files
+*.tfplan
+
+# AWS credentials and key pairs - NEVER commit these
+*.pem
+*.pem.pub
+
+# SSH config files
+ec2-user*
+
+# Mac OS files
+.DS_Store
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
